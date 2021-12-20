@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+
+div {
+    display: block;
+}
+
+h1 {
+    color: black;
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+p a {
+    text-align: center;
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 12px;
+    color: #000000;
+}
+
+p a:hover {
+    color: rgb(105, 105, 105);
+}
+
+.body {
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    background-color: white;
+}
+
+.header {
+    background-color: rgb(224, 224, 224);
+    margin-top: 20px;
+    border-bottom: 1px solid #cccc;
+    padding: 10px;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.top-nav {
+    text-align: center;
+    color: black;
+}
+
+.top-nav a {
+    text-align: center;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Garamond', cursive;
+    font-style: italic;
+}
+
+.top-nav a:hover {
+    color: rgb(105, 105, 105);
+}
+
+
+.images {
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    white-space: nowrap;
+    transition: .5s ease;
+  backface-visibility: hidden;
+  }
+  
+.images img {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.images:hover img {
+    opacity: 0.3;
+}
+
+
+
