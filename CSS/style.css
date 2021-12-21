@@ -67,26 +67,34 @@ p a:hover {
 }
 
 
-.images {
+.column {
+    float: left;
+    padding: 5px;
     opacity: 1;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
     white-space: nowrap;
     transition: .5s ease;
-  backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 25%;
+
   }
-  
-.images img {
+
+  .column img {
     display: inline-block;
     height: 200px;
     width: 200px;
-}
+  }
 
-.images:hover img {
+  .column:hover img {
     opacity: 0.3;
 }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
 
 
 
